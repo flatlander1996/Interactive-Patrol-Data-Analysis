@@ -1,0 +1,94 @@
+<!DOCTYPE HTML>
+<!--
+	Hyperspace by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+	<head>
+		<title>Data Analysis</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+	</head>
+	<body class="is-preload">
+
+		<!-- Header -->
+			<header id="header">
+				<a href="index.html" class="title">pointLogd</a>
+				<nav>
+					<ul>
+						<li><a href="index.html">Home</a></li>
+						
+                        <li><a href="intro.html" >Patrol Monitoring</a></li>
+                        <li><a href="dataAnalysis.html" class="active">Data Analysis</a></li>
+				
+					</ul>
+				</nav>
+			</header>
+
+		<!-- Wrapper -->
+			<div id="wrapper">
+
+				<!-- Main -->
+					<section id="main" class="wrapper">
+						<div class="inner">
+							<h1 class="major">Historical Data Analysis</h1>
+                            <p>
+                                With the Data Analysis page, you can get valueable insights on your patrol routes for any time period you wish. The application analyzes the patrol data 
+                                for the selected time frame and provides interactive visualizations.
+                            </p>
+
+							<span class="image fit">
+
+                                <iframe src="https://player.vimeo.com/video/527458969" width="640" height="512" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>
+                            </span>
+							<p>
+                               The bar chart on the top shows the number of times that each location has been logged in your specified time frame. The data is ordered by number of logs so it is very easy
+                                to see which locations are beeing neglected by your patrols.
+
+                            </p>
+                            <p>
+                                By clicking on a location, the application shows a time series of the performance of your patrols, relative to that specific location. You can easily
+                                 spot the days in which this location was not adequately checked by looking at the valleys in the chart.
+ 
+                             </p>
+
+                             <p>
+                                The pie chart on the top right shows how well your patrols were being executed, in terms of how many locations each patrol group has checked. For example, the green
+                                 slice represents the fraction of patrols that checked 18+ out of all 20 locations. Naturally, we would want the green slice to be the largest, which would indicate that
+                                  our patrols are usually checking most of the facility's locations.
+ 
+                             </p>
+
+                             <p>
+                                If we click on the pie chart, we get an even more in-depth analysis of our patrol routes. The scatter plot shows information about our patrols' durations and
+                                 number of logged checkpoints. The red point on the graph represents the average patrol route (average logged checkpoints and average patrol duration).
+ 
+                             </p>
+						</div>
+					</section>
+
+			</div>
+
+		<!-- Footer -->
+			<footer id="footer" class="wrapper alt">
+				<div class="inner">
+					<ul class="menu">
+						
+					</ul>
+				</div>
+			</footer>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.scrollex.min.js"></script>
+			<script src="assets/js/jquery.scrolly.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+
+	</body>
+</html>
